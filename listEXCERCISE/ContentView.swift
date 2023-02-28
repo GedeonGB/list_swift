@@ -10,7 +10,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        NavigationView {
+            
+            List(0 ..< 20) { item in
+                Image("img1")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 70)
+                    .cornerRadius(4)
+                
+                VStack (alignment: .leading, spacing: 3) {
+                    Text("Join us today for our sermon on the benefits of living under overflowing grace")
+                        
+                        .fontWeight(.semibold)
+                        .lineLimit(2)
+                        
+                        .minimumScaleFactor(0.5)
+                    Text("January 1,2023")
+                        .font(.subheadline)
+                        .foregroundColor(Color.blue)
+                }
+            }
+            .navigationBarTitle("Sermon's top 10")
+        }
     }
 }
 
