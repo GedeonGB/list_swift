@@ -15,6 +15,7 @@
 		04AB43F129A7731900547346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB43EF29A7731900547346 /* LaunchScreen.storyboard */; };
 		04AB43FC29A7731B00547346 /* listEXCERCISETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB43FB29A7731B00547346 /* listEXCERCISETests.swift */; };
 		04AB440729A7731B00547346 /* listEXCERCISEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB440629A7731B00547346 /* listEXCERCISEUITests.swift */; };
+		04F0025529AFA2580012E541 /* sermon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0025429AFA2580012E541 /* sermon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		04AB440229A7731B00547346 /* listEXCERCISEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listEXCERCISEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AB440629A7731B00547346 /* listEXCERCISEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listEXCERCISEUITests.swift; sourceTree = "<group>"; };
 		04AB440829A7731B00547346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F0025429AFA2580012E541 /* sermon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sermon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				04AB43EF29A7731900547346 /* LaunchScreen.storyboard */,
 				04AB43F229A7731900547346 /* Info.plist */,
 				04AB43EC29A7731900547346 /* Preview Content */,
+				04F0025429AFA2580012E541 /* sermon.swift */,
 			);
 			path = listEXCERCISE;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				04AB43E529A772DF00547346 /* AppDelegate.swift in Sources */,
 				04AB43E729A772DF00547346 /* SceneDelegate.swift in Sources */,
 				04AB43E929A772DF00547346 /* ContentView.swift in Sources */,
+				04F0025529AFA2580012E541 /* sermon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
