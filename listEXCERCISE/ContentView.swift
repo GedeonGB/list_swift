@@ -9,12 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    var sermons: [sermon] = SermonList.sermonVideo
+
     var body: some View {
         
         NavigationView {
             
-            List(0 ..< 20) { item in
-                Image("img1")
+            List(sermons, id: \.id) { sermon in
+                Image(sermon.imageName)
                     .resizable()
                     .scaledToFit()
                     .frame(height: 70)
